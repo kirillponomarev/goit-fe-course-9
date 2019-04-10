@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding-top: 1.25rem;
+}
+
+.bigwrapper {
+    background-image: url(../img/desktop-bg.jpg);
+    background-position: center;
+    height: 31.25rem;
+}
+
+.wrapper {
+    max-width: 58.875rem;
+    margin: auto;
+}
+
+.top-buttons {
+    margin-bottom: 6.875rem;
+}
+
+.silka {
+    text-decoration: white;
+}
+
+.login, .signup {
+    padding: 6px 0;
+    color: #ffffff;
+    background: transparent;
+    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: 2px solid transparent;
+    border-radius: 1.25rem;
+    text-align: center;
+    transition: all 150ms linear;
+}
+
+.login:hover,
+.signup:hover {
+    border: 2px solid #ffffff;
+    border-radius: 1.25rem;
+}
+
+.log {
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 2.1875rem;
+}
+
+.headline {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.8125rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.9375rem;
+}
+
+.text {
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.qwer {
+    text-align: center;
+}
+
+.bottom-button {
+    width: 17.375rem;
+    text-align: center;
+    padding: 5px 0;
+    color: #ffffff;
+    border: 2px solid #ff4e50;
+    border-radius: 1.25rem;
+    background: transparent;
+    transition: all 150ms linear;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.bottom-button:hover {
+    background-color: #ff4e50;
+}
+
+.wrapper-main {
+    min-height: 500px;
+    background-color: rgb(184, 68, 68);
+}

@@ -1,5 +1,13 @@
 @media (min-width: 768px) {
-    .wrapper {
-        min-height: 700px;
+    .headline {
+        font-size: 49px;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+
+    .bottom-button {
+        width: 14.375rem;
     }
 }
