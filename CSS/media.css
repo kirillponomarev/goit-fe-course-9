@@ -10,4 +10,8 @@
     .bottom-button {
         width: 14.375rem;
     }
+
+    .wrapper-header {
+        height: 43.75rem;
+    }
 }

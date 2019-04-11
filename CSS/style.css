@@ -9,13 +9,16 @@ a:hover {
 }
 
 .container-fluid {
-    padding-top: 1.25rem;
+    padding: 0;
 }
 
-.bigwrapper {
+.wrapper-header {
+    padding-top: 1.25rem;
+    width: 100vw;
+    height: 31.25rem;
     background-image: url(../img/desktop-bg.jpg);
     background-position: center;
-    height: 31.25rem;
+    margin-bottom: 4.0625rem;
 }
 
 .wrapper {
@@ -103,7 +106,43 @@ a:hover {
     background-color: #ff4e50;
 }
 
+
+
+
+
+             /* MAIN */
+
+
 .wrapper-main {
-    min-height: 500px;
-    background-color: rgb(184, 68, 68);
+    max-width: 58.875rem;
+    margin: auto;
+}
+
+.headline2 {
+    text-align: center;
+    color: #333333;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.people {
+    width: 14.6875rem;
+    margin: auto;
+}
+
+.headline-people {
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.text-people {
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
