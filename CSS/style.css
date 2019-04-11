@@ -15,14 +15,14 @@ a:hover {
 .wrapper-header {
     padding-top: 1.25rem;
     width: 100vw;
-    height: 31.25rem;
+    height: 500px;
     background-image: url(../img/desktop-bg.jpg);
     background-position: center;
     margin-bottom: 4.0625rem;
 }
 
 .wrapper {
-    max-width: 58.875rem;
+    max-width: 62rem;
     margin: auto;
 }
 
@@ -91,7 +91,7 @@ a:hover {
 .bottom-button {
     width: 17.375rem;
     text-align: center;
-    padding: 5px 0;
+    padding: 8px 0;
     color: #ffffff;
     border: 2px solid #ff4e50;
     border-radius: 1.25rem;
@@ -114,7 +114,7 @@ a:hover {
 
 
 .wrapper-main {
-    max-width: 58.875rem;
+    max-width: 62rem;
     margin: auto;
 }
 
@@ -124,11 +124,30 @@ a:hover {
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    margin-bottom: 0.9375rem;
 }
 
 .people {
-    width: 14.6875rem;
+    width: 13.625rem;
     margin: auto;
+}
+
+.image {
+    width: 7.625rem;
+    height: 7.625rem;
+    position: relative;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.image > img {
+    border-radius: 50%;
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .headline-people {
@@ -145,4 +164,13 @@ a:hover {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+}
+
+.bbt-two {
+    color: #ff4e50;
+    margin-bottom: 2.5rem;
+}
+
+.bbt-two:hover {
+    color: #ffffff;
 }
